@@ -1,16 +1,8 @@
 Assignment Name: Tweet Manager
-
 Name of Creator: Nabeel Abu-Mahfouz (1104136)
-
 Email: nabumahf@uoguelph.ca
-
 Course ID: CIS 2500
-
 Date of last Revision: 2022/03/31
-
-
-
-
 
 
 
