@@ -58,6 +58,7 @@ Limitations:
 
 1.	The tweets are only able to be loaded from a csv file in function 7.
 2.	When loading in tweets, edge cases that include multiple punctuation symbols could cause error. 
+3.  More memory could have been dynamically allocated (good coding practice).
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
