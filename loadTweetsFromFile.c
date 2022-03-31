@@ -10,7 +10,7 @@ void loadTweetsFromFile(tweet ** tweetList){
 
 
     printf("Enter a filename to load from: ");
-    scanf("%s", fileName); //ARE YOU GOING TO BE USING FILENAMES WITH SPACES???
+    scanf("%s", fileName); 
 
     FILE *ptr = fopen(fileName, "r");
 
@@ -21,7 +21,7 @@ void loadTweetsFromFile(tweet ** tweetList){
     }
     else{
     //Reading each line (null character found at end of each line while using fgets)      
-        while (fgets(fileLine, 500, ptr) != NULL ) { //same thing as saying null?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ('\0')
+        while (fgets(fileLine, 500, ptr) != NULL ) { 
             tempTweet = malloc(sizeof(tweet));
             //Gathering userid information using strtok: -> atoi function converts string literal to int
             tempTweet->id = atoi( strtok(fileLine, ",") );
