@@ -1,0 +1,35 @@
+A3_output: createTweet.o addNodeToList.o displayTweets.o searchTweetsByKeyword.o countStopWords.o deleteTweet.o saveTweetsToFile.o loadTweetsFromFile.o sortID.o Abu-MahfouzNabeelA3MAIN.o
+	gcc createTweet.o addNodeToList.o displayTweets.o searchTweetsByKeyword.o countStopWords.o deleteTweet.o saveTweetsToFile.o loadTweetsFromFile.o sortID.o Abu-MahfouzNabeelA3MAIN.o -o A3_output
+
+Abu-MahfouzNabeelA3MAIN.o: Abu-MahfouzNabeelA3MAIN.c 
+	gcc -Wall -std=c99 -c Abu-MahfouzNabeelA3MAIN.c 
+
+createTweet.o: createTweet.c 
+	gcc -Wall -std=c99 -c createTweet.c 
+
+addNodeToList.o: addNodeToList.c
+	gcc -Wall -std=c99 -c addNodeToList.c
+
+displayTweets.o: displayTweets.c
+	gcc -Wall -std=c99 -c displayTweets.c
+
+searchTweetsByKeyword.o: searchTweetsByKeyword.c
+	gcc -Wall -std=c99 -c searchTweetsByKeyword.c
+
+countStopWords.o: countStopWords.c
+	gcc -Wall -std=c99 -c countStopWords.c
+
+deleteTweet.o: deleteTweet.c
+	gcc -Wall -std=c99 -c deleteTweet.c
+
+saveTweetsToFile.o: saveTweetsToFile.c
+	gcc -Wall -std=c99 -c saveTweetsToFile.c
+
+loadTweetsFromFile.o: loadTweetsFromFile.c
+	gcc -Wall -std=c99 -c loadTweetsFromFile.c
+
+sortID.o: sortID.c
+	gcc -Wall -std=c99 -c sortID.c
+
+clean: 
+	rm *.o A3_output
