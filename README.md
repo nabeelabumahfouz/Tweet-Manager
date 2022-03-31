@@ -43,13 +43,17 @@ They will be prompted for a filename to load tweets from a specific csv file.
 When “8” is entered by the user:
 The list of present tweets will be sorted in ascending order based on their user ID’s
 
+
+
 Limitations:
+
 1.	The tweets are only able to be loaded from a csv file in function 7.
 2.	When loading in tweets, edge cases that include multiple punctuation symbols could cause error. 
 
 
 
 Future Improvement:
+
 1.	Improving the way the 2 nodes in the sortID function (function #8) are swapped; I used a brute force method but there is a more efficient way to do it. 
 2.	The load function can be improved to be compatible with multiple file types instead of just csv files.
 
