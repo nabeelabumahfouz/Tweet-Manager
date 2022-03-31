@@ -1,16 +1,21 @@
-Assignment Name: Tweet Manager
+Assignment Name: Tweet Manager                                                                          
+
 Name of Creator: Nabeel Abu-Mahfouz (1104136)
+
 Email: nabumahf@uoguelph.ca
+
 Course ID: CIS 2500
+
 Date of last Revision: 2022/03/31
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------
 How to Compile & Run Tweet Manager:
 
 1. Enter the “make” command with all the files in the same directory
 2. Next, run the program with the executable: ./A3_output
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Program Summary:
@@ -46,12 +51,16 @@ When "9" is entered by the user:
 The program will empty the current list of tweets, free its memory, and exit the program.
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Limitations:
 
 1.	The tweets are only able to be loaded from a csv file in function 7.
 2.	When loading in tweets, edge cases that include multiple punctuation symbols could cause error. 
 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Future Improvement:
