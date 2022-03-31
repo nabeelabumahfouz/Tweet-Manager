@@ -1,7 +1,7 @@
 #include "Abu-MahfouzNabeelA3.h"
 
 int main () {
-    tweet * tweetList = NULL; //why do we do this?
+    tweet * tweetList = NULL; 
     
 
     int user = 0;
