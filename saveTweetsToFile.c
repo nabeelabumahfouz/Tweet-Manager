@@ -9,7 +9,7 @@ void saveTweetsToFile(tweet * tweetList){
     tweet *tempTweet = tweetList;
 
     printf("Enter the filename where you would like your tweets stored: ");
-    scanf("%s", fileName); //ARE YOU GOING TO BE USING FILENAMES WITH SPACES???
+    scanf("%s", fileName); 
 
     FILE *ptr = fopen(fileName, "w");
 
