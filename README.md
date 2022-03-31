@@ -41,7 +41,10 @@ When “7” is entered by the user:
 They will be prompted for a filename to load tweets from a specific csv file.
 
 When “8” is entered by the user:
-The list of present tweets will be sorted in ascending order based on their user ID’s
+The list of present tweets will be sorted in ascending order based on their user ID’s.
+
+When "9" is entered by the user:
+The program will empty the current list of tweets, free its memory, and exit the program.
 
 
 
